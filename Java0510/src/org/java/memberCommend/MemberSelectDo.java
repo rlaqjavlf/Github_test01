@@ -20,7 +20,7 @@ public class MemberSelectDo implements QueryCommend{
 		
 		while(iterator.hasNext()) {
 				MemberDTO DTO = iterator.next();
-				System.out.println("===========================");
+				System.out.println("============================");
 				System.out.println(DTO.getUserID()+"  |  "+DTO.getUserPW()+"  |  "+
 													DTO.getUserName()+"  |  "+DTO.getUserAge());
 				
